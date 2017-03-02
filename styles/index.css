@@ -74,7 +74,7 @@ figure img {
 }
 
 #background {
-    background-image: url("images/Books.jpg");
+    background-image: url("../images/Books.jpg");
     background-position: center bottom;
     background-size: cover;
     overflow: hidden;
