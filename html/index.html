@@ -1,7 +1,7 @@
 <!DOCTYPE>
 <html>
 <head>
-    <title>Business | Books</title>
+    <title>Bestsellers | Books</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,6 +15,7 @@
     <script type="text/javascript" src="../animation/index.js"></script>
 
     <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
     <link rel="stylesheet" type="text/css" href="../styles/index.css">
 </head>
 <body>
@@ -22,14 +23,19 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
+            <a class="navbar-toggle" data-toggle="collapse" data-target="#navLinks">
+                <img src="../images/icon_menu.png" height="48">
+            </a>
             <a class="navbar-brand" href="index.html">Home</a>
         </div>
-        <ul class="navbar-header">
-            <li><a href="Novels.html">Novels</a></li>
-            <li><a href="Business.html">Business</a></li>
-            <li><a href="Buy.html">Buy</a></li>
-        </ul>
-    </div>
+        <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="Novels.html">Novels</a></li>
+                    <li><a href="Business.html">Business</a></li>
+                    <li><a href="Buy.html">Buy</a></li>
+                </ul>
+        </div>
+     </div>   
 </nav>
 
   <div class="container-fluid" id="bestsellers">
@@ -70,6 +76,7 @@
         <h3>We are a small bookstore in the centre of Amsterdam. Our specialism is to sell only the best written books in the world. That could be a novel or a business book. If you buy a book at bestsellers, you know for sure that you have a good book.</h3>
         <h2>We tell stories</h2>
     </div>
+</div>
   
     <!--Footer-->
     <div class="container-fluid" id="footer">
