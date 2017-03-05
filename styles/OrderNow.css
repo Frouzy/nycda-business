@@ -1,0 +1,175 @@
+body {
+	margin: 0px;
+	color: white;
+}
+
+form {
+	color: white;
+	width: 40%;
+	margin-top: 10%;
+	float: left;
+	margin-right: 20%;
+	border
+}
+
+iframe {
+	float: left;
+	width: 35%;
+	margin-top: 10%;
+}
+
+h5 {
+	display: inline;
+	margin-left: 150px; 
+	position: relative;
+	width: 200px; 
+}
+
+#submitButton {
+	border-radius: 20px;
+	width: 300px; 
+}
+
+#hero {
+	background-image: url('../images/bookbg.jpg');
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	top:0;
+	height: 100vh;
+	z-index: -10;
+}
+
+#hero-overlay {
+	position: absolute;
+	background-color: rgba(0,0,0,0.60);
+	top:0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -5;
+}
+
+#theForm {
+ 
+color:white;
+display: table;
+padding: 15px;
+ 
+}
+ 
+.row {
+display: table-row;
+
+}
+ 
+.row label {
+display: table-cell;
+padding-right: 40px;
+text-align:right;
+ 
+}
+ 
+.row input {
+display: table-cell;
+padding: 2px;
+width: 300px;
+background-color: black;
+}
+
+#bestsellers {
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    height: 600px;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+/* Omar
+#footer {
+	background-color: inherit;
+	float: left; 
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+*/ 
+
+
+
+* {
+    font-family: "News Cycle", sans-serif;
+    color: white;
+}
+
+
+/*Navigation*/
+nav {
+    padding: 10px;
+    background: inherit;
+}
+.navbar-inverse {
+    background-color: grey;
+    border: none;
+}
+
+.navbar .nav > li > a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navbar .nav > li > a:hover {
+    color: orange;
+}
+.navbar-toggle {
+    border: none;
+    outline: none;
+}
+
+
+/* menubar */
+a:link, a:visited {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*Footer*/
+#footer {
+    height: 100px;
+    background-color: grey;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+}
+
+#toTop {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer a:link, #footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: none;
+}
+
+#toTop a:link, #toTop a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#toTop a:hover {
+    text-decoration: underline;
+}
+
+
