@@ -13,7 +13,7 @@
     <!--jQuery and Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="../animation/index.js"></script>
+    <script type="text/javascript" src="../animation/orderNow.js"></script>
 
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="../styles/orderNow.css">
@@ -23,6 +23,28 @@
 
 </head>
 <body>
+        <!-- JQUERY -->
+<script>
+    $("body").click( function(){
+    $("body").fadeOut (4000);
+    $("body").fadeIn (4000);
+    $("body").hide(4000);
+    $("body").show(4000);
+    $("img").hide();
+    $("li").hide();
+    $("li").show();
+    $("iframe").animate( {
+        opacity: 0.25,
+        } , 4000 );
+    $("h2").slideUp();
+    $("ul").fadeOut();
+    $("img").show();
+    $("div").show(4000);
+    $("ul").fadeIn();
+
+})
+
+  </script>
         <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
