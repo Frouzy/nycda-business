@@ -29,13 +29,11 @@
     margin-bottom: 30px;
     position: relative;
     z-index:0;
-
 }
 
 .thumbnails img:hover {
     border: 4px solid orange;
     cursor:pointer;
-    border: 5px solid #f4f4f4;
 }
 
 .preview img {

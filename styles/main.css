@@ -7,6 +7,9 @@
 
 
 /*Navigation*/
+nav {
+    padding: 10px;
+}
 .navbar-inverse {
     background-color: grey;
     border: none;
