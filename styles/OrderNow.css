@@ -74,7 +74,9 @@ text-align:right;
 display: table-cell;
 padding: 2px;
 width: 300px;
-background-color: black;
+background-color: inherit;
+border: none; 
+border-bottom: white 1px solid; 
 }
 
 #bestsellers {
