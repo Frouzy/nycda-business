@@ -46,6 +46,7 @@
     white-space: pre;
 }
 
+/*Header*/
 #background {
     background-image: url("https://static.pexels.com/photos/110252/pexels-photo-110252.jpeg");
     background-position: center bottom;
@@ -70,6 +71,7 @@
 }
 
 #header h2 {
+    font-family: "Satisfy";
     text-align: center;
     padding: 20px;
     color: white;
@@ -84,3 +86,19 @@
     margin-right: 5px;
     margin-left: 5px;
 }
+
+@media screen and (max-width: 760px) {
+    
+    #header {
+        display: none;
+       
+    }
+    
+
+    #who {
+        width: 90%;
+        height: 450px;
+        margin: 5% auto;
+        padding: 0px;
+    }
+
