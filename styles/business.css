@@ -86,3 +86,19 @@
     margin-right: 5px;
     margin-left: 5px;
 }
+
+@media screen and (max-width: 760px) {
+    
+    #header {
+        display: none;
+       
+    }
+    
+
+    #who {
+        width: 90%;
+        height: 450px;
+        margin: 5% auto;
+        padding: 0px;
+    }
+

@@ -158,3 +158,21 @@ button:focus {
     padding: 10px;
     width: 30%;
 }
+
+@media screen and (max-width: 760px) {
+    #header {
+        display: none;
+       
+    }
+    
+    #bestsellers {
+        display: none;
+    }
+    #who {
+        width: 90%;
+        height: 450px;
+        margin: 5% auto;
+        padding: 0px;
+    }
+
+}
