@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="BG.css">
-	<head>
+    <head>
     <title>ORDER NOW</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,14 +9,26 @@
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-    <!--jQuery and Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- BOOTSTRAP -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <!--jQuery and JSp-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="../animation/orderNow.js"></script>
 
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="../styles/orderNow.css">
     <link rel="stylesheet" type="text/css" href="../styles/main.css">
+
+    <!-- FORM VALIDATION SCRIPT -->
 
     </head>
 
@@ -26,31 +37,20 @@
         <!-- JQUERY -->
 <script>
     $("body").click( function(){
-    $("body").fadeOut (4000);
-    $("body").fadeIn (4000);
-    $("body").hide(4000);
-    $("body").show(4000);
-    $("img").hide();
-    $("li").hide();
-    $("li").show();
     $("iframe").animate( {
         opacity: 0.25,
         } , 4000 );
-    $("h2").slideUp();
-    $("ul").fadeOut();
-    $("img").show();
-    $("div").show(4000);
-    $("ul").fadeIn();
-
+    $("iframe").slideUp();
 })
-</script>
         
-    <!-- Navigation -->
+  </script>
+
+        <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-toggle" data-toggle="collapse" data-target="#navLinks">
-                <img src="../images/footer/icon_menu.png" height="48">
+                <img src="../images/icon_menu.png" height="48">
             </a>
             <a class="navbar-brand" href="index.html">Home</a>
         </div>
@@ -66,36 +66,66 @@
         
         <!-- Navigation -->
 
-<form id="theForm" action="" method="">
-        <h5>Please fill in the Order Form below:</h5>
+        <form id="theForm" name="frm" method="post" action="#" onsubmit="return checkforblank()">
+        
+        <fieldset>
+
+            <!-- To be fixed 
+
+               <h5>Please fill in the Order Form below:</h5> <br>
+
+                To be fixed     -->
+
+        <!-- To be fixed -->       
+
+            <div class="row" id="selection">   
+            <label for="Genre">Genre:</label>
+            <select name="Genre">
+              <option value="Select" selected>Select a genre please!</option>
+              <option value="Business">Business</option>
+              <option value="Computer Science">Computer Science</option>
+              <option value="Novels">Novels</option>
+            </select><br><br><br>
+
+            </div>  
             
 
-    <div class="row">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name=""> </br> </br>
-    </div>
-             
-    <div class="row">
-        <label for="address">Address:</label>
-        <input type="text" id="address" Address=""> </br> </br>
-    </div>
-             
-    <div class="row">
-        <label for="phone">Phone:</label>
-        <input type="tel" id="phone" Phone=""> </br> </br>
-    </div>
 
-    <div class="row">
-        <label for="email">Email:</label>
-        <input type="email" id="email" Email="">
-        <br><br>
-        <input id= "submitButton" type="submit">
-    </div>
- </form>
+            <div class="row">
+            <label for="name">First Name:</label>
+            <input type="text" id="Fname" name="name" placeholder="Enter First Name ..."><br><br><br>
+            </div>
 
-        <!-- GOOGLE MAP -->
+            <div class="row">
+            <label for="name">Last Name:</label>
+            <input type="text" id="Lname" name="name" placeholder="Enter Last Name ..."><br><br><br>
+            </div>
+             
+            <div class="row">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" placeholder="Enter address ..."><br><br><br>
+            </div>
+             
+            <div class="row">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="Phone" placeholder="Enter Phone Number ..."><br><br><br>
+            </div>
+            <div class="row">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email" placeholder="Enter Email Address ...">
+            <br><br><br><br>
+
+            <input id= "submitButton" type="submit" value="Order Book Now!" onclick="return val();" />
+            </div>
+        </fieldset>
+        </form>
+
+
+                                                               <!-- GOOGLE MAP -->
                                             
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.1751241839884!2d4.825371315773559!3d52.34910897978213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e227971a9067%3A0xa6fb9e8fe8b99248!2sAmsterdam%2C+Johan+Huizingalaan+(Johan+Huizingalaan)!5e0!3m2!1sen!2snl!4v1486944945129" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>         
+                                                    <!-- GOOGLE MAP -->
+                                            
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.1751241839884!2d4.825371315773559!3d52.34910897978213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e227971a9067%3A0xa6fb9e8fe8b99248!2sAmsterdam%2C+Johan+Huizingalaan+(Johan+Huizingalaan)!5e0!3m2!1sen!2snl!4v1486944945129" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>         
 
 <!--Footer-->
     <div class="container-fluid" id="footer">
@@ -120,10 +150,10 @@
 <!--Footer end here -->
 
 <div id= "hero">
-			
-		<div id="hero-overlay"></div>
+            
+        <div id="hero-overlay">
 
-</div>
+        </div>
                        
                             
 </body>
