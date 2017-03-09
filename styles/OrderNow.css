@@ -5,11 +5,12 @@ body {
 
 form {
 	color: white;
-	width: 40%;
+	width: 45%;
 	margin-top: 10%;
 	float: left;
-	margin-right: 20%;
-	border
+	margin-right: 5%;
+	height: 50%; 
+	margin-left:10%;
 }
 
 iframe {
@@ -18,6 +19,7 @@ iframe {
 	margin-top: 10%;
 }
 
+<<<<<<< HEAD
 h5 {
 	display: inline;
 	margin-left: 150px; 
@@ -35,10 +37,20 @@ h5 {
 }
 
 
+=======
+>>>>>>> 439dc73a112782beb0aae1b1f28d9cafb7921eba
 #submitButton {
 	border-radius: 20px;
-	width: 300px; 
+	width: 140px; 
+	border: 1px solid white;
+	margin-left: 60px; 
+	font-size: 16px;
 }
+
+#selection {
+	padding: 10px; 
+}
+
 
 #hero {
 	background-image: url('../images/business/bookbg.jpg');
@@ -64,8 +76,8 @@ h5 {
  
 color:white;
 display: table;
-padding: 15px;
- 
+padding: 50px;
+
 }
  
 .row {
@@ -80,13 +92,20 @@ text-align:right;
  
 }
  
+					/* FORM STYLING */ 
+
 .row input {
 display: table-cell;
 padding: 2px;
 width: 300px;
-background-color: black;
+background-color: inherit;
+border: none; 
+border-bottom: white 1px solid; 
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
 }
 
+<<<<<<< HEAD
 
 /* Omar
 #footer {
@@ -100,6 +119,32 @@ background-color: black;
 
 
 
+=======
+.row select {
+display: table-cell;
+padding: 2px;
+width: 300px;
+background-color: inherit;
+border: none; 
+border-bottom: white 1px solid; 
+font-size: 20px; 
+}
+
+
+#bestsellers {
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    height: 600px;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+* {
+    font-family: "News Cycle", sans-serif;
+    color: white;
+}
+>>>>>>> 439dc73a112782beb0aae1b1f28d9cafb7921eba
 
 
 
