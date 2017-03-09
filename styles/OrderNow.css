@@ -9,7 +9,7 @@ form {
 	margin-top: 10%;
 	float: left;
 	margin-right: 5%;
-	height: 500px; 
+	height: 50%; 
 	margin-left:10%;
 }
 
@@ -17,12 +17,6 @@ iframe {
 	float: left;
 	width: 35%;
 	margin-top: 10%;
-}
-
-h5 {
-	display: inline;
-	margin-left: 150px; 
-	width: 400px; 
 }
 
 #submitButton {
@@ -101,6 +95,7 @@ border-bottom: white 1px solid;
 font-size: 20px; 
 }
 
+
 #bestsellers {
     text-align: center;
     background-color: white;
@@ -109,18 +104,6 @@ font-size: 20px;
     border-radius: 10px;
     margin: 100px auto;
 }
-
-/* Omar
-#footer {
-	background-color: inherit;
-	float: left; 
-	display: block;
-	width: 100%;
-	margin: auto;
-}
-*/ 
-
-
 
 * {
     font-family: "News Cycle", sans-serif;
