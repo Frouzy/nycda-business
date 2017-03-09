@@ -19,14 +19,6 @@ iframe {
 	margin-top: 10%;
 }
 
-<<<<<<< HEAD
-h5 {
-	display: inline;
-	margin-left: 150px; 
-	position: relative;
-	width: 200px; 
-}
-
 #bestsellers {
     text-align: center;
     background-color: white;
@@ -36,9 +28,6 @@ h5 {
     margin: 100px auto;
 }
 
-
-=======
->>>>>>> 439dc73a112782beb0aae1b1f28d9cafb7921eba
 #submitButton {
 	border-radius: 20px;
 	width: 140px; 
@@ -105,21 +94,6 @@ border-bottom-left-radius: 5px;
 border-bottom-right-radius: 5px;
 }
 
-<<<<<<< HEAD
-
-/* Omar
-#footer {
-	background-color: inherit;
-	float: left; 
-	display: block;
-	width: 100%;
-	margin: auto;
-}
-*/ 
-
-
-
-=======
 .row select {
 display: table-cell;
 padding: 2px;
@@ -144,7 +118,65 @@ font-size: 20px;
     font-family: "News Cycle", sans-serif;
     color: white;
 }
->>>>>>> 439dc73a112782beb0aae1b1f28d9cafb7921eba
+
+/*Navigation*/
+nav {
+    padding: 10px;
+    background: inherit;
+}
+.navbar-inverse {
+    background-color: grey;
+    border: none;
+}
+
+.navbar .nav > li > a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navbar .nav > li > a:hover {
+    color: orange;
+}
+.navbar-toggle {
+    border: none;
+    outline: none;
+}
+
+
+/* menubar */
+a:link, a:visited {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*Footer*/
+#footer {
+    height: 100px;
+    background-color: grey;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+}
+
+#toTop {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer a:link, #footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: none;
+}
 
 
 
