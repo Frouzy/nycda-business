@@ -1,6 +1,6 @@
 # nycda-business
 
-Business website for a book store, named Bestsellers
+Business website for a book store: Bestsellers
 
 Project team:
 -Franka Rolvink Couzy
@@ -8,7 +8,7 @@ Project team:
 -Omar Bendjaballah
 
 Responsibilities
--Franka: menubar with dropdown hamburger, footer, responsivenes
+-Franka: navbar with dropdown hamburger, footer, responsivenes
 with @media and Bootstrap for the first three pages and dropup 
 menu under images with jquery
 -Magda: Image gallery for two pages and a small big-size jquery
